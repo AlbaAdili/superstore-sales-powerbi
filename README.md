@@ -29,4 +29,17 @@ The **Power BI** dashboard provides a **Sales Overview**, including:
 - **mysql.py** → Connects to MySQL, creates a database and tables, and loads the dataset.  
 
 ---
+## Technologies Used
+- **Programming Language**: Python  
+- **Database**: MySQL  
+- **Visualization**: Power BI, Matplotlib, Seaborn  
+- **Machine Learning**: Scikit-Learn  
+- **Database Connection**: SQLAlchemy  
 
+---
+
+## Setup Guide
+### Clone the Repository
+```bash
+git clone <https://github.com/AlbaAdili/superstore-sales-powebi.git>
+cd superstore-sales-analysis
