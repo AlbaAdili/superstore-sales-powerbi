@@ -39,7 +39,25 @@ The **Power BI** dashboard provides a **Sales Overview**, including:
 ---
 
 ## Setup Guide
-### Clone the Repository
+1. Clone the Repository
 ```bash
 git clone <https://github.com/AlbaAdili/superstore-sales-powebi.git>
 cd superstore-sales-analysis
+```
+2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+3. Set Up MySQL Database
+```bash
+sudo systemctl start mysql  # macOS/Linux
+net start mysql             # Windows
+```
+4. Create Database & Load Data
+```bash
+CREATE DATABASE superstore;
+```
+5. Run Analysis & Generate Insights
+```bash
+python superstore.py
+```
